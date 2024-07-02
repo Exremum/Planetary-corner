@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: #fff;
+  background: #C0C0C0 url("./src/image/bg.png");
+}
+
+/* ul {
+  margin: 0;
+  padding: 0;
+} */
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background: #141414;
+  border-bottom: 1px solid rgba(41, 28, 28, 0.521);
+  font-size: 10.5pt;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.nav-bar a {
+  color: #fff;
+  margin: auto;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-bar a:hover {
+  color: #918d8d;
+  margin: auto;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.content img{
+  position: absolute;
+  width: 70%;
+  height: auto;
+  left: 15%;
+  top: 6.10vh;
+}
+
+.texts {
+  height: 600px;
+  width: 1000px;
+  position: absolute;
+  left: 23%;
+  top: 10%;
+}
+
+.question {
+  font-size: 25px;
+  font-family: Ubuntu;
+}
+
+.question1 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  left: 20px;
+  position: relative;
+  top: -520px;
+}
+
+.basis img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 45%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis1 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 11%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis2 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis3 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 11%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis4 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis5 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis6 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis7 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis8 img {
+  width: 450px;
+  height: 250px;
+  margin-left: 6%;
+  margin-top: 12%;
+
+  animation-name: imgAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.basis span{
+  position: absolute;
+  left: 32%;
+  top: 105%;
+  padding: 10px;
+}
+
+.basis1 span{
+  position: absolute;
+  left: 32%;
+  top: 168%;
+  padding: 10px;
+}
+
+.basis2 span{
+  position: absolute;
+  left: 32%;
+  top: 237%;
+  padding: 10px;
+}
+
+.basis3 span{
+  position: absolute;
+  left: 32%;
+  top: 308%;
+  padding: 10px;
+}
+
+.basis4 span{
+  position: absolute;
+  left: 32%;
+  top: 379%;
+  padding: 10px;
+}
+
+.basis5 span{
+  position: absolute;
+  left: 32%;
+  top: 447%;
+  padding: 10px;
+}
+
+.basis6 span{
+  position: absolute;
+  left: 35%;
+  top: 517%;
+  padding: 10px;
+}
+
+.basis7 span{
+  position: absolute;
+  left: 34%;
+  top: 585%;
+  padding: 10px;
+}
+
+.basis8 span{
+  position: absolute;
+  left: 34%;
+  top: 652%;
+  padding: 10px;
+}
+
+@keyframes imgAnimation {
+  from {
+      transform: scale(1.0);
+  }
+
+  50% {
+      transform: scale(1.05);
+  }
+
+  to {
+      transform: scale(1.0);
+  }
+}
